@@ -78,15 +78,15 @@ export default function Marketplace() {
               justifyContent='space-between'
               direction={{ base: "column", md: "row" }}
               align={{ base: "start", md: "center" }}>
-              <Text color={textColor} fontSize='2xl' ms='24px' fontWeight='700'>
+              {/* <Text color={textColor} fontSize='2xl' ms='24px' fontWeight='700'>
                 Trending NFTs
-              </Text>
+              </Text> */}
               <Flex
                 align='center'
                 me='20px'
                 ms={{ base: "24px", md: "0px" }}
                 mt={{ base: "20px", md: "0px" }}>
-                <Link
+                {/* <Link
                   color={textColorBrand}
                   fontWeight='500'
                   me={{ base: "34px", md: "44px" }}
@@ -106,14 +106,14 @@ export default function Marketplace() {
                   me={{ base: "34px", md: "44px" }}
                   to='#collectibles'>
                   Collectibles
-                </Link>
-                <Link color={textColorBrand} fontWeight='500' to='#sports'>
+                </Link> */}
+                {/* <Link color={textColorBrand} fontWeight='500' to='#sports'>
                   Sports
-                </Link>
+                </Link> */}
               </Flex>
             </Flex>
             <SimpleGrid columns={{ base: 1, md: 3 }} gap='20px'>
-              <NFT
+              {/* <NFT
                 name='Abstract Colors'
                 author='By Esthera Jackson'
                 bidders={[
@@ -228,21 +228,21 @@ export default function Marketplace() {
                 image={Nft6}
                 currentbid='0.91 ETH'
                 download='#'
-              />
+              /> */}
             </SimpleGrid>
           </Flex>
         </Flex>
         <Flex
           flexDirection='column'
           gridArea={{ xl: "1 / 3 / 2 / 4", "2xl": "1 / 2 / 2 / 3" }}>
-          <Card px='0px' mb='20px'>
+          {/* <Card px='0px' mb='20px'>
             <TableTopCreators
               tableData={tableDataTopCreators}
               columnsData={tableColumnsTopCreators}
             />
-          </Card>
+          </Card> */}
           <Card p='0px'>
-            <Flex
+            {/* <Flex
               align={{ sm: "flex-start", lg: "center" }}
               justify='space-between'
               w='100%'
@@ -252,9 +252,9 @@ export default function Marketplace() {
                 History
               </Text>
               <Button variant='action'>See all</Button>
-            </Flex>
+            </Flex> */}
 
-            <HistoryItem
+            {/* <HistoryItem
               name='Colorful Heaven'
               author='By Mark Benjamin'
               date='30s ago'
@@ -295,7 +295,7 @@ export default function Marketplace() {
               date='3m ago'
               image={Nft6}
               price='0.91 ETH'
-            />
+            /> */}
           </Card>
         </Flex>
       </Grid>

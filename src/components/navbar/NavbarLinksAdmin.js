@@ -12,7 +12,7 @@ import {
   MenuList,
   Text,
   useColorModeValue,
-  useColorMode,
+  // useColorMode,
 } from "@chakra-ui/react";
 // Custom Components
 import { ItemContent } from "components/menu/ItemContent";
@@ -23,7 +23,7 @@ import React from "react";
 // Assets
 import navImage from "assets/img/layout/Navbar.png";
 import { MdNotificationsNone, MdInfoOutline } from "react-icons/md";
-import { FaEthereum } from "react-icons/fa";
+// import { FaEthereum } from "react-icons/fa";
 import routes from "routes.js";
 import { ThemeEditor } from "./ThemeEditor";
 export default function HeaderLinks(props) {
@@ -33,10 +33,10 @@ export default function HeaderLinks(props) {
   let menuBg = useColorModeValue("white", "navy.800");
   const textColor = useColorModeValue("secondaryGray.900", "white");
   const textColorBrand = useColorModeValue("brand.700", "brand.400");
-  const ethColor = useColorModeValue("gray.700", "white");
+  // const ethColor = useColorModeValue("gray.700", "white");
   const borderColor = useColorModeValue("#E6ECFA", "rgba(135, 140, 189, 0.3)");
-  const ethBg = useColorModeValue("secondaryGray.300", "navy.900");
-  const ethBox = useColorModeValue("white", "navy.800");
+  // const ethBg = useColorModeValue("secondaryGray.300", "navy.900");
+  // const ethBox = useColorModeValue("white", "navy.800");
   const shadow = useColorModeValue(
     "14px 17px 40px 4px rgba(112, 144, 176, 0.18)",
     "14px 17px 40px 4px rgba(112, 144, 176, 0.06)"
@@ -57,7 +57,7 @@ export default function HeaderLinks(props) {
         me='10px'
         borderRadius='30px'
       />
-      <Flex
+      {/* <Flex
         bg={ethBg}
         display={secondary ? "flex" : "none"}
         borderRadius='30px'
@@ -87,7 +87,7 @@ export default function HeaderLinks(props) {
             ETH
           </Text>
         </Text>
-      </Flex>
+      </Flex> */}
       <SidebarResponsive routes={routes} />
       <Menu>
         <MenuButton p='0px'>
@@ -245,7 +245,7 @@ export default function HeaderLinks(props) {
               _focus={{ bg: "none" }}
               borderRadius='8px'
               px='14px'>
-              <Text fontSize='sm'>Profile Settings</Text>
+              <Text fontSize='sm'>Profile Settigs</Text>
             </MenuItem>
             <MenuItem
               _hover={{ bg: "none" }}

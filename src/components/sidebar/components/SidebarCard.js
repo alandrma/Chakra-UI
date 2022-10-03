@@ -22,7 +22,7 @@ export default function SidebarDocs() {
       borderRadius='30px'
       me='20px'
       position='relative'>
-      <Flex
+      {/* <Flex
         border='5px solid'
         borderColor={borderColor}
         bg='linear-gradient(135deg, #868CFF 0%, #4318FF 100%)'
@@ -37,15 +37,15 @@ export default function SidebarDocs() {
         top='-47px'
         transform='translate(-50%, 0%)'>
         <Image src={logoWhite} w='40px' h='40px' />
-      </Flex>
-      <Flex
+      </Flex> */}
+      {/* <Flex
         direction='column'
         mb='12px'
         align='center'
         justify='center'
         px='15px'
-        pt='55px'>
-        <Text
+        pt='55px'> */}
+        {/* <Text
           fontSize={{ base: "lg", xl: "18px" }}
           color='white'
           fontWeight='bold'
@@ -54,8 +54,8 @@ export default function SidebarDocs() {
           px='10px'
           mb='14px'>
           Upgrade to PRO
-        </Text>
-        <Text
+        </Text> */}
+        {/* <Text
           fontSize='14px'
           color={"white"}
           px='10px'
@@ -63,9 +63,9 @@ export default function SidebarDocs() {
           textAlign='center'>
           Improve your development process and start doing more with Horizon UI
           PRO!
-        </Text>
-      </Flex>
-      <Link href='https://horizon-ui.com/pro'>
+        </Text> */}
+      {/* </Flex> */}
+      {/* <Link href='https://horizon-ui.com/pro'>
         <Button
           bg='whiteAlpha.300'
           _hover={{ bg: "whiteAlpha.200" }}
@@ -78,7 +78,7 @@ export default function SidebarDocs() {
           mx='auto'>
           Upgrade to PRO
         </Button>
-      </Link>
+      </Link> */}
     </Flex>
   );
 }

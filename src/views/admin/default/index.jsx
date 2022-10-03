@@ -68,7 +68,7 @@ export default function UserReports() {
         columns={{ base: 1, md: 2, lg: 3, "2xl": 6 }}
         gap='20px'
         mb='20px'>
-        <MiniStatistics
+        {/* <MiniStatistics
           startContent={
             <IconBox
               w='56px'
@@ -81,8 +81,8 @@ export default function UserReports() {
           }
           name='Earnings'
           value='$350.4'
-        />
-        <MiniStatistics
+        /> */}
+        {/* <MiniStatistics
           startContent={
             <IconBox
               w='56px'
@@ -95,8 +95,8 @@ export default function UserReports() {
           }
           name='Spend this month'
           value='$642.39'
-        />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
+        /> */}
+        {/* <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
         <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
@@ -117,8 +117,8 @@ export default function UserReports() {
           }
           name='Your balance'
           value='$1,000'
-        />
-        <MiniStatistics
+        /> */}
+        {/* <MiniStatistics
           startContent={
             <IconBox
               w='56px'
@@ -143,15 +143,15 @@ export default function UserReports() {
           }
           name='Total Projects'
           value='2935'
-        />
+        /> */}
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <TotalSpent />
-        <WeeklyRevenue />
+        {/* <TotalSpent />
+        <WeeklyRevenue /> */}
       </SimpleGrid>
       <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
-        <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
+        {/* <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
           <DailyTraffic />
           <PieCard />
@@ -165,7 +165,7 @@ export default function UserReports() {
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
           <Tasks />
           <MiniCalendar h='100%' minW='100%' selectRange={false} />
-        </SimpleGrid>
+        </SimpleGrid> */}
       </SimpleGrid>
     </Box>
   );

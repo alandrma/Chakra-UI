@@ -135,7 +135,7 @@ function SignIn() {
               fontWeight='500'
               color={textColor}
               mb='8px'>
-              Email<Text color={brandStars}>*</Text>
+              PrivyID<Text color={brandStars}>*</Text>
             </FormLabel>
             <Input
               isRequired={true}
@@ -143,7 +143,7 @@ function SignIn() {
               fontSize='sm'
               ms={{ base: "0px", md: "0px" }}
               type='email'
-              placeholder='mail@simmmple.com'
+              placeholder='mail@privy.id'
               mb='24px'
               fontWeight='500'
               size='lg'

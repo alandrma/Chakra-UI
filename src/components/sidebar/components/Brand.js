@@ -13,7 +13,8 @@ export function SidebarBrand() {
 
   return (
     <Flex align='center' direction='column'>
-      <HorizonLogo h='26px' w='175px' my='32px' color={logoColor} />
+      {/* //ini header logonya jink */}
+      <HorizonLogo h='26px' w='175px' my='32px' color='#f536c3' /> 
       <HSeparator mb='20px' />
     </Flex>
   );
