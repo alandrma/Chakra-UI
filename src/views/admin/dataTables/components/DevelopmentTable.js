@@ -59,13 +59,13 @@ export default function DevelopmentTable(props) {
       px='0px'
       overflowX={{ sm: "scroll", lg: "hidden" }}>
       <Flex px='25px' justify='space-between' mb='20px' align='center'>
-        <Text
+        {/* <Text
           color={textColor}
           fontSize='22px'
           fontWeight='700'
           lineHeight='100%'>
           Development Table
-        </Text>
+        </Text> */}
         <Menu />
       </Flex>
       <Table {...getTableProps()} variant='simple' color='gray.500' mb='24px'>

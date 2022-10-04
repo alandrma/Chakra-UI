@@ -118,7 +118,7 @@ function SignIn() {
             _active={googleActive}
             _focus={googleActive}>
             <Icon as={FcGoogle} w='20px' h='20px' me='10px' />
-            Sign in with Google
+            Sign in with Okta
           </Button>
           <Flex align='center' mb='25px'>
             <HSeparator />
@@ -143,7 +143,7 @@ function SignIn() {
               fontSize='sm'
               ms={{ base: "0px", md: "0px" }}
               type='email'
-              placeholder='mail@privy.id'
+              placeholder='Your PrivyID'
               mb='24px'
               fontWeight='500'
               size='lg'
@@ -177,19 +177,19 @@ function SignIn() {
             </InputGroup>
             <Flex justifyContent='space-between' align='center' mb='24px'>
               <FormControl display='flex' alignItems='center'>
-                <Checkbox
+                {/* <Checkbox
                   id='remember-login'
                   colorScheme='brandScheme'
                   me='10px'
-                />
-                <FormLabel
+                /> */}
+                {/* <FormLabel
                   htmlFor='remember-login'
                   mb='0'
                   fontWeight='normal'
                   color={textColor}
                   fontSize='sm'>
                   Keep me logged in
-                </FormLabel>
+                </FormLabel> */}
               </FormControl>
               <NavLink to='/auth/forgot-password'>
                 <Text

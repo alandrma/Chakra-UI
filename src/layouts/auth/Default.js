@@ -61,7 +61,8 @@ function AuthIllustration(props) {
           position='absolute'
           right='0px'>
           <Flex
-            bg={`url(${illustrationBackground})`}
+            // bg={`url(${illustrationBackground})`}
+            bg={`url("https://bursakerjasmk.sch.id/images/company/cover/pt-privy-identitas-digital1555554218.png")`}
             justify='center'
             align='end'
             w='100%'
